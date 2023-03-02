@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+/* button styles are here */
+button {
+    background: white;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 30px;
+    font-size: 24px;
+    font-family: 'Muli';
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    line-height: 1;
+    display: flex;
+  }
+
+  button:hover {
+    background: #eee;
+  }
+
+  .icon {
+    margin-right: 8px;
+  }
+
+  .countdown {
+    /* overflow: hidden; */
+    margin-left: 6px;
+  }
+
+  .reset {
+    font-size: 12px;
+    padding: 8px 16px;
+    margin: 100px auto 0;
+  }
